@@ -110,3 +110,52 @@ section {
     margin-top: 2rem;
     cursor: pointer;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%; /* Adjusted padding */
+    background: var(--snd-bg-color);
+}
+
+.footer-text {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%
+    }
+}
+
+@media (max-width: 991px) {
+    .header{
+        padding: 2rem 3%;
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
