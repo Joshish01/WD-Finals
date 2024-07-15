@@ -71,6 +71,14 @@ section {
     display: none;
 }
 
+.heading {
+    display: flex;
+    gap: 0.8rem; /* Adjusted gap value */
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+}
+
 .contact h2 {
     margin-bottom: 3rem;
 }

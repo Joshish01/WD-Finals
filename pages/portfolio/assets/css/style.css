@@ -33,6 +33,14 @@ section {
     padding: 10rem 0% 2rem;
 }
 
+.heading {
+    display: flex;
+    gap: 0.8rem; /* Adjusted gap value */
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+}
+
 .header {
     position: fixed;
     top: 0;
